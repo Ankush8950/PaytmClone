@@ -14,10 +14,10 @@
 ## **Using Technology**
 [![React Badge](https://img.shields.io/badge/-HTML-red?style=for-the-badge&labelColor=black&logo=html&logoColor=61DBFB)](#) [![Javascript Badge](https://img.shields.io/badge/-Tailwind-blue?style=for-the-badge&labelColor=black&logo=tailwind&logoColor=white)](#)
 
-# **Time Taken for this projact**
-> I spent  around 12 hours completed this projact. and this is a completely responsive Design 
+# **Time Taken for this project**
+> I spent  around 12 hours completing this project , and this is a completely responsive Design. 
 
 
-# 🚀[Paytm Live Projact](https://exquisite-mermaid-d537e6.netlify.app)
+# 🚀[Paytm Live Project](https://exquisite-mermaid-d537e6.netlify.app)
 ![PaytmClone](/PaytmClone.png)
 
