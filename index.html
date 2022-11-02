@@ -33,7 +33,8 @@
             lightblue: "#00BAF2",
             cardblue:'#4DCFF6',
             lightblack: "#F5F5F5",
-            blackthin: '#5c5c5c',
+            myblue: '#0E4485',
+            brightblue: '#00B2E6',
             white: "#FFFFFF",
             smalldarkwhite: '#F5F7FA'
           },
@@ -58,11 +59,6 @@
     }
     .card-product{
             flex:0 0 auto;
-            width: 170px;
-            height: auto;
-            margin-right: 10px;
-            justify-content: center;
-            align-items: center;
     }
     
          .pre-btn,.next-btn{
@@ -114,11 +110,11 @@
         <img src="./image/paytm_logo.png" alt="logo" class="w-[140px] sm:w-[180px] cursor-pointer" />
       </div>
       <div class="hidden absolute lg:relative top-[80px] lg:top-[auto] left-0 lg:left-[auto] w-full  lg:w-[auto] h-[330px] lg:h-[auto]  w-300px bg-blue text-white lg:text-black lg:bg-white flex flex-col lg:flex-row  lg:flex space-y-7 lg:space-y-0 space-x-0 lg:space-x-7 font-roboto text-lg font-medium cursor-pointer pl-5 lg:pl-0 pt-5 lg:pt-0  menu_items ">
-        <a>Paytm for Consumer</a>
-        <a>Paytm for Business</a>
-        <a>Company</a>
-        <a>Investor Relations</a>
-        <a>Career</a>
+        <a class="text-sm xl:text-lg">Paytm for Consumer</a>
+        <a class="text-sm xl:text-lg">Paytm for Business</a>
+        <a class="text-sm xl:text-lg">Company</a>
+        <a class="text-sm xl:text-lg">Investor Relations</a>
+        <a class="text-sm xl:text-lg">Career</a>
       </div>
       <div
         class="w-[auto] sm:w-[115px] pl-5 p-0.5 font-roboto text-xs sm:text-base font-medium bg-lightblue hover:bg-blue text-white flex justify-between items-center rounded-full cursor-pointer">
@@ -141,7 +137,7 @@
     <div class=" md:-w-[400px]  lg:w-[700px] justify-center pl-[20px] sm:pl-[50px] mr-[20px] mt-10 sm:mt-0">
       <img class="w-[60px] sm:w-[100px]" src="./image/upi.png" alt="" />
       <h1 class="font-bold text-3xl md:text-4xl lg:text-6xl mt-10">India's Most-loved Payments App</h1>
-      <p class="font-medium text-sm md:text-1xl lg:text-2xl mt-6 lg:mt-10">
+      <p class="font-medium text-sm md:text-xl lg:text-2xl mt-6 lg:mt-10">
         Recharge & pay bills, book flights & movie tickets, open a savings
         account, invest in stocks & mutual funds, and do a lot more.
       </p>
@@ -157,30 +153,30 @@
     </div>
   </div>
   <!-- recharge -->
-  <div class="bg-lightblue pl-[20px] pt-[50px] pb-[20px] h-[auto] lg:h-[350px] font-roboto">
+  <div class="bg-lightblue pl-[20px] pt-[50px] pb-[20px] h-[auto]  font-roboto">
     <h1 class="font-semibold text-4xl text-white pl-[20px]">Recharge & Pay Bills on Paytm.</h1>
-    <div class="flex-wrap flex sm:flex mt-10 space-x-3 md:space-x-7  justify-center text-white font-medium">
-      <div class=" sm:w-[150px] h-[180px] cursor-pointer p-4 hover:bg-blackthin hover: rounded-xl ">
+    <div class="flex-wrap flex sm:flex mt-10 mb-20 space-x-3 md:space-x-7 lg:space-x-3  justify-start md:justify-center text-white font-medium">
+      <div class=" sm:w-[150px] h-[180px] cursor-pointer p-4 hover:bg-brightblue hover: rounded-xl ">
         <img class="w-[60px]" src="./image/rechargeicon/mobile-recharge.png" alt="">
         <h2 class="mt-4 text-sm sm:text-lg font-medium leading-6 break-words">Recharge <br>Prepaid<br> Mobile <span>></span></h2>
       </div>
-      <div class="sm:w-[150px] h-[180px] cursor-pointer p-4 hover:bg-blackthin hover: rounded-xl ">
+      <div class="sm:w-[150px] h-[180px] cursor-pointer p-4 hover:bg-brightblue hover: rounded-xl ">
         <img class="w-[60px]" src="./image/rechargeicon/rent-pay.png" alt="">
         <h2 class="mt-4 text-sm sm:text-lg font-medium leading-6 break-words">Pay <br> Rent <br>Payment <span>></span></h2>
       </div>
-      <div class="sm:w-[150px] h-[180px] cursor-pointer p-4 hover:bg-blackthin hover: rounded-xl ">
+      <div class="sm:w-[150px] h-[180px] cursor-pointer p-4 hover:bg-brightblue hover: rounded-xl ">
         <img class="w-[60px]" src="./image/rechargeicon/Electricity.png" alt="">
         <h2 class="mt-4 text-sm sm:text-lg font-medium leading-6">Pay <br> Electricity <br> Bill <span>></span></h2>
       </div>
-      <div class="sm:w-[150px] h-[180px] cursor-pointer p-4 hover:bg-blackthin hover: rounded-xl ">
+      <div class="sm:w-[150px] h-[180px] cursor-pointer p-4 hover:bg-brightblue hover: rounded-xl ">
         <img class="w-[60px]" src="./image/rechargeicon/dth.png" alt="">
         <h2 class="mt-4 text-sm sm:text-lg font-medium leading-6">Recharge <br> DTH Connection<span>></span></h2>
       </div>
-      <div class="sm:w-[150px] h-[180px] cursor-pointer p-4 hover:bg-blackthin hover: rounded-xl ">
+      <div class="sm:w-[150px] h-[180px] cursor-pointer p-4 hover:bg-brightblue hover: rounded-xl ">
         <img class="w-[60px]" src="./image/rechargeicon/gas cylinder.png" alt="">
         <h2 class="mt-4 text-sm sm:text-lg font-medium leading-6">Book <br> Gas <br>Cylinder <span>></span></h2>
       </div>
-      <div class="sm:w-[150px] h-[180px] cursor-pointer p-4 hover:bg-blackthin hover: rounded-xl ">
+      <div class="sm:w-[150px] h-[180px] cursor-pointer p-4 hover:bg-brightblue hover: rounded-xl ">
         <img class="w-[60px]" src="./image/rechargeicon/credit.png" alt="">
         <div class="mt-4 text-sm sm:text-lg font-medium leading-6">
           <h2>Pay </h2>
@@ -188,7 +184,7 @@
           <h2> Card Bill<span>></span></h2>
         </div>
       </div>
-      <div class="sm:w-[150px] h-[180px] cursor-pointer p-4 hover:bg-blackthin hover: rounded-xl ">
+      <div class="sm:w-[150px] h-[180px] cursor-pointer p-4 hover:bg-brightblue hover: rounded-xl ">
         <img class="w-[60px]" src="./image/rechargeicon/All payment service.png" alt="">
         <div class="mt-4 text-sm sm:text-lg font-medium leading-6 ">
           <h2> All </h2>
@@ -198,41 +194,41 @@
     </div>
   </div>
   <!-- book & buy on paytm -->
-  <div class="bg-blue pl-[20px] pt-[80px] pb-[20px] h-[auto] lg:h-[350px] font-roboto">
+  <div class="bg-blue pl-[20px] pt-[80px] pb-[20px] h-[auto]  font-roboto">
     <h1 class="font-semibold text-4xl text-white pl-[20px]">Book & Buy on Paytm.</h1>
-    <div class="flex-wrap flex sm:flex mt-10 space-x-3 md:space-x-7 justify-center text-white font-medium">
-      <div class=" sm:w-[150px] h-[170px] p-4 hover:bg-blackthin hover: rounded-xl ">
+    <div class="flex-wrap flex sm:flex mt-10 mb-10 space-x-5 sm:space-x-3 md:space-x-7 lg:space-x-3 justify-start md:justify-center text-white font-medium">
+      <div class=" sm:w-[150px] h-[170px] p-4 hover:bg-myblue hover: rounded-xl ">
         <img class="w-[60px]" src="./image/rechargeicon/movie.png" alt="">
-        <h2 class="mt-4 text-sm sm:text-lg">Movie Tickets<span>></span></h2>
+        <h2 class="mt-4 text-sm sm:text-lg">Movie <br> Tickets<span>></span></h2>
       </div>
-      <div class="sm:w-[150px] h-[170px] p-4 hover:bg-blackthin hover: rounded-xl ">
+      <div class="sm:w-[150px] h-[170px] p-4 hover:bg-myblue hover: rounded-xl ">
         <img class="w-[60px]" src="./image/rechargeicon/flight.png" alt="">
         <h2 class="mt-4 text-sm sm:text-lg">Flight <br> Tickets <span>></span></h2>
       </div>
-      <div class="sm:w-[150px] h-[170px] p-4 hover:bg-blackthin hover: rounded-xl ">
+      <div class="sm:w-[150px] h-[170px] p-4 hover:bg-myblue hover: rounded-xl ">
         <img class="w-[60px]" src="./image/rechargeicon/bus.png" alt="">
         <h2 class="mt-4 text-sm sm:text-lg">Bus <br> Tickets <span>></span></h2>
       </div>
-      <div class="sm:w-[150px] h-[170px] p-4 hover:bg-blackthin hover: rounded-xl ">
+      <div class="sm:w-[150px] h-[170px] p-4 hover:bg-myblue hover: rounded-xl ">
         <img class="w-[60px]" src="./image/rechargeicon/train.png" alt="">
         <h2 class="mt-4 text-sm sm:text-lg">Train <br> Tickets<span>></span></h2>
       </div>
-      <div class="sm:w-[150px] h-[170px] p-4 hover:bg-blackthin hover: rounded-xl ">
+      <div class="sm:w-[150px] h-[170px] p-4 hover:bg-myblue hover: rounded-xl ">
         <img class="w-[60px]" src="./image/rechargeicon/car&bikes.png" alt="">
         <h2 class="mt-4 text-sm sm:text-lg">Car & <br> Bikes<span>></span></h2>
       </div>
-      <div class="sm:w-[150px] h-[170px] p-4 hover:bg-blackthin hover: rounded-xl ">
+      <div class="sm:w-[150px] h-[170px] p-4 hover:bg-myblue hover: rounded-xl ">
         <img class="w-[60px]" src="./image/rechargeicon/international flight.png" alt="">
         <h2 class="mt-4 text-sm sm:text-lg">International<br> Flights<span>></span></h2>
       </div>
-      <div class="sm:w-[150px] h-[170px] p-4 hover:bg-blackthin hover: rounded-xl ">
+      <div class="sm:w-[150px] h-[170px] p-4 hover:bg-myblue hover: rounded-xl ">
         <img class="w-[60px]" src="./image/rechargeicon/stcok.png" alt="">
         <h2 class="mt-4 text-sm sm:text-lg ">Invest <br> in Stocks<span>></span></h2>
       </div>
     </div>
   </div>
   <!-- payment instruments -->
-  <div class="bg-smalldarkwhite h-[auto] p-[50px] pb-[120px] space-y-10 font-roboto">
+  <div class="bg-smalldarkwhite h-[auto] p-[20px] sm:p-[50px] pb-[120px] space-y-10 font-roboto">
     <h1 class="mt-[80px] mb-[40px] font-bold text-4xl lg:text-5xl">Paytm Payment Instruments</h1>
 
     <div class="bg-white flex flex-col-reverse sm:flex-row items-center justify-center rounded-xl p-[10px] 
@@ -246,7 +242,7 @@
         <p class="mt-5 font-medium  text-sm md:text-base lg:text-lg ">Load up your Paytm Wallet for free and make
           payments in a jiffy at over 21 million stores, websites and apps.</p>
         <button
-          class="w-[200px]  md:w-[250px] mt-9 font-normal md:font-medium text-xs sm:text-sm md:text-medium p-2 sm:p-3 flex items-center justify-center bg-black text-white rounded-full">
+          class="w-[200px] sm:w-[230px]  md:w-[250px] mt-9 font-normal md:font-medium text-xs sm:text-sm md:text-medium p-2 sm:p-3 flex items-center justify-center bg-black text-white rounded-full">
           Download Paytm App
           <span class="flex items-center justify-center"><img src="./image/apple-logo.png" alt="" class="w-4 ml-2" />
             <img src="./image/google-playstore.svg" alt="" class="w-4 ml-2" /></span>
@@ -270,7 +266,7 @@
           from anyone.</p>
 
         <button
-          class="w-[200px]  md:w-[250px] mt-9 font-normal md:font-medium text-xs sm:text-sm md:text-medium p-2 sm:p-3 flex items-center justify-center bg-black text-white rounded-full">
+          class="w-[200px] sm:w-[230px]  md:w-[250px] mt-9 font-normal md:font-medium text-xs sm:text-sm md:text-medium p-2 sm:p-3 flex items-center justify-center bg-black text-white rounded-full">
           Download Paytm App
           <span class="flex items-center justify-center"><img src="./image/apple-logo.png" alt="" class="w-4 ml-2" />
             <img src="./image/google-playstore.svg" alt="" class="w-4 ml-2" /></span>
@@ -297,23 +293,27 @@
       </div>
     </div>
 
-
+<!-- paytm cashback card -->
     <div class="flex items-center flex-col sm:flex-row space-x-[0px] sm:space-x-[60px] space-y-10 font-roboto">
       <div
-        class="bg-white w-[auto] sm:w-[550px] h-full rounded-xl items-center justify-center pt-[0px] lg:pt-[80px] pl-[20px] lg:pl-[50px] pr-[20px] lg:pr-[50px]">
+        class="bg-white w-[auto] sm:w-[550px] h-full rounded-xl flex flex-col items-center justify-center pt-[0px] lg:pt-[80px] pl-[20px] lg:pl-[50px] pr-[20px] lg:pr-[50px]">
+        <div>
         <img src="./image/rechargeicon/paytm-hdfc-logo.png" alt="" class="w-[200px]">
         <h1 class="font-bold text-3xl mt-8 lg:text-5xl">Unlimited Cashback Every time</h1>
         <p class="mt-8 font-medium  text-base leading-7 mb-10 md:text-xl">Paytm HDFC Bank Select Credit Card. A card
           with assured Cashback and incredible offers.</p>
+          </div>
         <img src="./image/debit-hdfc.png" alt=""
           class=" w-[200px] h-[150px] md:w-[300px] md:[200px] lg:w-[450px] lg:h-[300px]">
       </div>
       <div
-        class="bg-white w-[auto] sm:w-[550px] h-full rounded-xl items-center justify-center pt-[50px] lg:pt-[140px] pl-[20px] lg:pl-[50px] pr-[20px] lg:pr-[50px] ">
+        class="bg-white w-[auto] sm:w-[550px] h-full rounded-xl flex flex-col items-center justify-center pt-[50px] lg:pt-[140px] pl-[20px] lg:pl-[50px] pr-[20px] lg:pr-[50px] ">
+        <div>
         <img src="./image/rechargeicon/paytm-sbi-card-logo.png" alt="" class="w-[200px]">
         <h1 class="font-bold text-3xl mt-8 lg:text-5xl">India’s Most <br> Sincere Credit Card</h1>
         <p class="mt-8 font-medium  text-base leading-7 mb-10 md:text-xl">Paytm SBI Card SELECT - With Intelligent
           Features & Great Rewards that Never Expire</p>
+          </div>
         <img src="./image/debit-sbi.png" alt=""
           class="w-[200px] h-[150px] md:w-[300px] md:[200px] lg:h-[300px] lg:w-[450px]  bottom-0 left-30  ">
       </div>
@@ -321,7 +321,7 @@
   </div>
 
   <!--Financial Services  -->
-  <div class="bg-white pt-[70px] pl-[50px] pt-[50px] pr-[50px] pb-[100px] font-roboto">
+  <div class="bg-white pt-[70px] pl-[20px] sm:pl-[50px] pt-[50px] pr-[20px] sm:pr-[50px] pb-[100px] font-roboto">
     <h1 class="font-semibold text-4xl lg:text-5xl">Financial Services by Paytm</h1>
     <div class="flex flex-col-reverse sm:flex-row items-center justify-between mt-10">
       <div class="w-full sm:w-1/2">
@@ -364,7 +364,7 @@
 
 
   <div
-    class="bg-white flex flex-col-reverse sm:flex-row justify-between items-center pb-[70px] pl-[50px] pt-[80px] pr-[50px] font-roboto">
+    class="bg-white flex flex-col-reverse sm:flex-row justify-between items-center pb-[70px] pl-[20px] sm:pl-[50px] pt-[80px] pr-[20px] sm:pr-[50px] font-roboto">
     <div class="w-full sm:w-1/2 p-[20px]">
       <img src="./image/rechargeicon/insurance.jpeg" alt="" class="w-[130px] lg:w-[170px]">
       <h1 class="mt-[30px] lg:mt-[50px] font-medium text-5xl">Insurance made easy.</h1>
@@ -382,11 +382,11 @@
 
 
   <div
-    class="bg-smalldarkwhite flex flex-col sm:flex-row items-center justify-between pb-[100px] pl-[50px] pt-[100px] pr-[50px] font-roboto ">
+    class="bg-smalldarkwhite flex flex-col sm:flex-row items-center justify-between pb-[100px] pl-[20px] sm:pl-[50px] pt-[100px] pr-[20px] sm:pr-[50px] font-roboto ">
     <div class="md:w-[400px]">
       <img src="./image/loan-img.png" alt="" class="w-[300px] md:w-[330px] lg:w-[430px]">
     </div>
-    <div class="w-full sm:w-[350px]  md:w-[400px] lg:w-[500px] pl-[30px] mt-10 md:mt-0">
+    <div class="w-full sm:w-[350px]  md:w-[400px] lg:w-[500px] pl-[auto]  ms:pl-[30px] mt-10 md:mt-0">
       <img src="./image/rechargeicon/loan-icon.png" alt="" class="w-[140px] md:w-[180px]">
       <h1 class="mt-10 font-medium text-2xl md:text-4xl">Get a Personal Loan in <br> 2 Minutes.</h1>
       <p class="mt-5 font-normal text-base md:text-lg">Paytm offers India's quickest multi-purpose, hassle-free loan. It
@@ -427,7 +427,7 @@
           class="w-[140px] lg:w-[180px] justify-center items-center bg-blue rounded-full text-sm lg:text-xl text-white mt-[30px] font-medium pt-3 pb-3">Learn
           More <span> > </span></button>
       </div>
-      <div>
+      <div class="mb-10 sm:mb-0">
         <img src="./image/shop-payment.png" alt=""
           class="w-[300px] h-[220px] md:h-[290px] md:w-[350px] lg:w-[480px] lg:h-[370px]">
       </div>
@@ -438,28 +438,28 @@
   <div class="p-[25px]  sm:p-[50px] font-roboto">
     <h1 class="font-medium text-3xl sm:text-5xl pb-20">Business Tools to help <br>your business grow</h1>
     <div class="flex space-x-4 justify-center  flex-wrap">
-      <div class="w-[200px] lg:w-[250px] ">
-        <img class="w-[200px] lg:w-[250px] " src="./image/pos-billing.png" alt="">
+      <div class="w-[200px] xl:w-[250px] ">
+        <img class="w-[200px] xl:w-[250px] " src="./image/pos-billing.png" alt="">
         <h1 class="font-medium text-2xl lg:text-3xl mt-5 ">POS Billing Software</h1>
         <p class="mt-10 font-medium text-base lg:text-xl"> Say Hello to Smart Retail Business Management</p>
         <button class="mt-5 font-medium">Learn More</button>
       </div>
 
-      <div class="w-[200px] lg:w-[250px]  ">
-        <img class="w-[200px] lg:w-[250px] " src="./image/business-app.png" alt="">
+      <div class="w-[200px] xl:w-[250px]  ">
+        <img class="w-[200px] xl:w-[250px] " src="./image/business-app.png" alt="">
         <h1 class="font-medium text-2xl lg:text-3xl mt-5">Paytm for Business App</h1>
         <p class="mt-10 font-medium text-base lg:text-xl">Everything you need to manage your business on your phone</p>
         <button class="mt-5 font-medium">Learn More</button>
       </div>
-      <div class="w-[200px] lg:w-[250px]  ">
-        <img class="w-[200px] lg:w-[250px] " src="./image/add-on-paytm.png" alt="">
+      <div class="w-[200px] xl:w-[250px]  ">
+        <img class="w-[200px] xl:w-[250px] " src="./image/add-on-paytm.png" alt="">
         <h1 class="font-medium text-2xl lg:text-3xl mt-5">Advertise on Paytm</h1>
         <p class="mt-10 font-medium text-base lg:text-xl ">Grow your business by advertising on India’s largest mobile
           business</p>
         <button class="mt-5 font-medium">Learn More</button>
       </div>
-      <div class="w-[200px] lg:w-[250px]  ">
-        <img class="w-[200px] lg:w-[250px] " src="./image/business-khata.png" alt="">
+      <div class="w-[200px] xl:w-[250px]  ">
+        <img class="w-[200px] xl:w-[250px] " src="./image/business-khata.png" alt="">
         <h1 class="font-medium text-2xl lg:text-3xl mt-5">Business <br>Khata</h1>
         <p class="mt-10 font-medium text-base lg:text-xl">Managing Khata made easy</p>
         <button class="mt-5 font-medium">Learn More</button>
@@ -468,7 +468,7 @@
   </div>
 
   <!-- using slick slider -->
-  <div class="p-[50px] pt-[100px] font-roboto">
+  <div class="p-[40px] sm:p-[50px] pt-[100px] h-[auto] font-roboto">
     <div class="flex flex-col md:flex-row w-full">
       <div class="w-[auto] sm:w-[400px]">
         <img src="./image/rechargeicon/paytm-money.png" alt="" class="w-[200px]">
@@ -479,31 +479,31 @@
         <button class="pre-btn font-bold text-xl text-blue">></button>
         <button class="next-btn font-bold text-xl text-blue" >></button>
       <div class="product-container flex space-x-7 w-[auto]  h-[auto]">
-        <div class="card-product  bg-cardblue p-3 rounded-xl">
-          <img class="w-[140px] h-[150px] pl-1" src="./image/rechargeicon/stock.png" alt="">
-          <h2 class="font-semibold text-xl text-center mt-8  text-white">Invest in Stocks</h2>
+        <div class="card-product w-[150px] sm:w-[170px] bg-cardblue flex flex-col items-center justify-center p-3 rounded-xl">
+          <img class="w-[100px] sm:w-[140px] h-[100px] sm:h-[150px] pl-1" src="./image/rechargeicon/stock.png" alt="">
+          <h2 class="font-semibold text-sm sm:text-xl text-center mt-8  text-white">Invest in Stocks</h2>
           </div>
-          <div class="card-product  bg-cardblue p-3 rounded-xl">
-          <img class="w-[140px] h-[150px] pl-1" src="./image/rechargeicon/ipo.png" alt="">
-          <h2 class="font-semibold text-xl text-center mt-8 text-white">Apply for IPO</h2>
+          <div class="card-product w-[150px] sm:w-[170px] bg-cardblue flex flex-col items-center justify-center p-3 rounded-xl">
+          <img class="w-[100px] sm:w-[140px] h-[100px] sm:h-[150px] pl-1" src="./image/rechargeicon/ipo.png" alt="">
+          <h2 class="font-semibold text-sm sm:text-xl text-center mt-8 text-white">Apply for IPO</h2>
           </div>
-            <div class="card-product  bg-cardblue p-3 rounded-xl">
-          <img class="w-[140px] h-[150px] pl-1" src="./image/rechargeicon/Etf.png" alt="">
-          <h2 class="font-semibold text-xl text-center mt-8 text-white">Invest in ETFs</h2>
+            <div class="card-product w-[150px] sm:w-[170px] bg-cardblue flex flex-col items-center justify-center p-3 rounded-xl">
+          <img class="w-[100px] sm:w-[140px] h-[100px] sm:h-[150px] pl-1" src="./image/rechargeicon/Etf.png" alt="">
+          <h2 class="font-semibold text-sm sm:text-xl text-center mt-8 text-white">Invest in ETFs</h2>
           </div>
-            <div class="card-product  bg-cardblue p-3 rounded-xl">
-          <img class="w-[140px] h-[150px] pl-1" src="./image/rechargeicon/gold.png" alt="">
-          <h2 class="font-semibold text-xl text-center mt-8 text-white">Buy Gold</h2>
+            <div class="card-product w-[150px] sm:w-[170px] bg-cardblue flex flex-col items-center justify-center p-3 rounded-xl">
+          <img class="w-[100px] sm:w-[140px] h-[100px] sm:h-[150px] pl-1" src="./image/rechargeicon/gold.png" alt="">
+          <h2 class="font-semibold text-sm sm:text-xl text-center mt-8 text-white">Buy Gold</h2>
           </div>
-            <div class="card-product  bg-cardblue p-3 rounded-xl">
-          <img class="w-[140px] h-[150px] pl-1" src="./image/rechargeicon/mutul fund.png" alt="">
-          <h2 class="font-semibold text-xl text-center mt-6 text-white">Invest in Mutual Funds</h2>
+            <div class="card-product w-[150px] sm:w-[170px] bg-cardblue flex flex-col items-center justify-center p-3 rounded-xl">
+          <img class="w-[100px] sm:w-[140px] h-[100px] sm:h-[150px] pl-1" src="./image/rechargeicon/mutul fund.png" alt="">
+          <h2 class="font-semibold text-sm sm:text-xl text-center mt-6 text-white">Invest in Mutual Funds</h2>
           </div>
       </div>
       </section>
     </div>
 
-    <div class="mt-20 w-full">
+    <div class="mt-[100px] w-full">
       <div class="flex flex-col  md:flex-row w-full overflow-hidden">
       <div class="w-[400px]">
         <img src="./image/rechargeicon/paytm-traval.png" alt="" class="w-[200px]">
@@ -515,34 +515,34 @@
         <button class="pre-btn font-bold text-xl text-blue">></button>
         <button class="next-btn font-bold text-xl text-blue" >></button>
      <div class="product-container flex space-x-7 w-[auto]  h-[auto]">
-        <div class="card-product  bg-cardblue p-3 rounded-xl">
-          <img class="w-[70px]" src="./image/rechargeicon/flight1.png" alt="">
-          <h2 class="font-semibold text-xl  mt-8 text-white">Flat 14%  <br> Cashback</h2>
+        <div class="card-product  w-[150px] sm:w-[170px]   bg-cardblue p-3 rounded-xl">
+          <img class="w-[40px] sm:w-[70px]" src="./image/rechargeicon/flight1.png" alt="">
+          <h2 class="font-semibold text-sm sm:text-xl  mt-8 text-white">Flat 14%  <br> Cashback</h2>
           <p class="font-normal text-sm mt-1 text-white">With Code</p>
           <p class="font-normal text-sm mt-1 text-white">WELCOMEFFLIGHT</p>
           </div>
-          <div class="card-product  bg-cardblue p-3 rounded-xl">
-          <img class="w-[70px]" src="./image/rechargeicon/refund.png" alt="">
-          <h2 class="font-semibold text-xl  mt-8 text-white">100% Refund</h2>
+          <div class="card-product  w-[150px] sm:w-[170px]   bg-cardblue p-3 rounded-xl">
+          <img class="w-[40px] sm:w-[70px]" src="./image/rechargeicon/refund.png" alt="">
+          <h2 class="font-semibold text-sm sm:text-xl  mt-8 text-white">100% Refund</h2>
           <p class="font-normal text-sm mt-1 text-white">With Patym's</p>
           <p class="font-normal text-sm mt-1 text-white">Cancellation Product </p>
           </div>
-            <div class="card-product  bg-cardblue p-3 rounded-xl">
-          <img class="w-[70px]" src="./image/rechargeicon/bus.png" alt="">
-          <h2 class="font-semibold text-xl  mt-8 text-white">Flat 100% <br> Cashback</h2>
+            <div class="card-product  w-[150px] sm:w-[170px]   bg-cardblue p-3 rounded-xl">
+          <img class="w-[40px] sm:w-[70px]" src="./image/rechargeicon/bus.png" alt="">
+          <h2 class="font-semibold text-sm sm:text-xl  mt-8 text-white">Flat 100% <br> Cashback</h2>
           <p class="font-normal text-sm mt-3 text-white">With Code HAPPYBUS</p>
           </div>
-            <div class="card-product  bg-cardblue p-3 rounded-xl">
-          <img class="w-[70px]" src="./image/rechargeicon/travalsafe.png" alt="">
-          <h2 class="font-semibold text-xl  mt-8 text-white">Sanitised Bus Options With TravelSafe+</h2>
+            <div class="card-product  w-[150px] sm:w-[170px]   bg-cardblue p-3 rounded-xl">
+          <img class="w-[40px] sm:w-[70px]" src="./image/rechargeicon/travalsafe.png" alt="">
+          <h2 class="font-semibold text-sm sm:text-xl  mt-8 text-white">Sanitised Bus <br>  Options With TravelSafe+</h2>
           </div>
-            <div class="card-product  bg-cardblue p-3 rounded-xl">
-          <img class="w-[70px]" src="./image/rechargeicon/train-tricket.png" alt="">
-          <h2 class="font-semibold text-xl  mt-6 text-white">Hassle Free Train Ticket Bookings</h2>
+            <div class="card-product  w-[150px] sm:w-[170px]   bg-cardblue p-3 rounded-xl">
+          <img class="w-[40px] sm:w-[70px]" src="./image/rechargeicon/train-tricket.png" alt="">
+          <h2 class="font-semibold text-sm sm:text-xl  mt-6 text-white">Hassle Free Train Ticket Bookings</h2>
           </div>
-              <div class="card-product  bg-cardblue p-3 rounded-xl">
-          <img class="w-[70px]" src="./image/rechargeicon/train-status.png" alt="">
-          <h2 class="font-semibold text-xl  mt-6 text-white">PNR Status Check In Few Simple Clicks</h2>
+              <div class="card-product  w-[150px] sm:w-[170px]  bg-cardblue p-3 rounded-xl">
+          <img class="w-[40px] sm:w-[70px]" src="./image/rechargeicon/train-status.png" alt="">
+          <h2 class="font-semibold text-sm sm:text-xl  mt-6 text-white">PNR Status Check In Few Simple Clicks</h2>
           </div>
       </div>
       </section>
@@ -552,15 +552,15 @@
   </div>
 
   <!-- footer  -->
-  <div class="bg-smalldarkwhite p-[50px]">
+  <div class="bg-smalldarkwhite p-[20px] sm:p-[50px]">
 
     <div
       class="bg-smalldarkwhite flex flex-col-reverse sm:flex-row justify-between items-center h-[auto] sm:h-[250px]  font-roboto">
       <div class="flex flex-col lg:flex-row items-center justify-center">
-        <h1 class="font-medium  text-3xl leading-8">Download Paytm App <br>to Pay from anywhere</h1>
-        <div class="flex flex-wrap items-center justify-center mt-10  mb-10">
-          <img class="ml-8 lg:ml-10 w-[150px]" src="./image/rechargeicon/app-store.svg" alt="">
-          <img class="ml-8 lg:ml-2 w-[150px]" src="./image/rechargeicon/google-play-store.svg" alt="">
+        <h1 class="font-medium text-xl sm:text-3xl text-center leading-8 mt-3 sm:mt-0">Download Paytm App <br>to Pay from anywhere</h1>
+        <div class="flex flex-wrap items-center justify-center mt-0 sm:mt-10  mb-10">
+          <img class="ml-8 lg:ml-10 w-[150px] mt-3 sm:mt-0 " src="./image/rechargeicon/app-store.svg" alt="">
+          <img class="ml-8 lg:ml-2 w-[150px] mt-3 sm:mt-0" src="./image/rechargeicon/google-play-store.svg" alt="">
         </div>
       </div>
       <div class="flex space-x-5">
@@ -570,7 +570,7 @@
       </div>
     </div>
 
-    <div class="bg-blackthin w-full h-[2px]"></div>
+    <div class="bg-myblue w-full h-[2px]"></div>
 
     <div class="mt-10">
       <div class="ml-[30px] pb-10">
