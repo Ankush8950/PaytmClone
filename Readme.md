@@ -17,7 +17,7 @@
 [![tailwind css](https://img.shields.io/badge/tailwind%20css-blue?style=for-the-badge&logo=tailwind%20css&logoColor=white)]()
 
 # **Time Taken for this project**
-> I spent  around 12 hours completing this project , and this is a completely responsive Design. 
+> I spent  around 12 to 15 hours completing this project , and this is a completely responsive Design. 
 
 
 # 🚀[Paytm Live Project](https://exquisite-mermaid-d537e6.netlify.app)
