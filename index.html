@@ -14,7 +14,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Murecho:wght@300&family=Orbitron:wght@700&family=Poppins:ital,wght@1,600&family=Roboto+Mono:wght@400;500&family=Roboto:wght@400;500&family=Ubuntu:wght@300&family=Varela+Round&display=swap"
     rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.38.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
@@ -110,11 +111,47 @@
         <img src="./image/paytm_logo.png" alt="logo" class="w-[140px] sm:w-[180px] cursor-pointer" />
       </div>
       <div class="hidden absolute lg:relative top-[80px] lg:top-[auto] left-0 lg:left-[auto] w-full  lg:w-[auto] h-[330px] lg:h-[auto]  w-300px bg-blue text-white lg:text-black lg:bg-white flex flex-col lg:flex-row  lg:flex space-y-7 lg:space-y-0 space-x-0 lg:space-x-7 font-roboto text-lg font-medium cursor-pointer pl-5 lg:pl-0 pt-5 lg:pt-0  menu_items ">
-        <a class="text-sm xl:text-lg">Paytm for Consumer</a>
-        <a class="text-sm xl:text-lg">Paytm for Business</a>
-        <a class="text-sm xl:text-lg">Company</a>
-        <a class="text-sm xl:text-lg">Investor Relations</a>
-        <a class="text-sm xl:text-lg">Career</a>
+        <div class="dropdown dropdown-hover">
+        <label tabindex="0" class="text-sm xl:text-lg">Paytm for Consumer</label>
+        <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li class="text-base"><a>Payments</a></li>
+          <li class="text-base"><a>Ticket Booking</a></li>
+          <li class="text-base"><a>Financial service </a></li>
+        </ul>
+      </div>
+
+           <div class="dropdown dropdown-hover">
+        <label tabindex="0" class="text-sm xl:text-lg">Paytm for Business</label>
+        <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li class="text-base"><a>Consumer Payments</a></li>
+          <li class="text-base"><a>Business Payments</a></li>
+          <li class="text-base"><a>Business Software </a></li>
+          <li class="text-base"><a>Financial Services </a></li>
+          <li class="text-base"><a>Developer</a></li>
+        </ul>
+      </div>
+
+           <div class="dropdown dropdown-hover">
+        <label tabindex="0" class="text-sm xl:text-lg">Investor Relations</label>
+        
+      </div>
+
+           <div class="dropdown dropdown-hover">
+        <label tabindex="0" class="text-sm xl:text-lg">Company</label>
+        <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li class="text-base"><a>About</a></li>
+          <li class="text-base"><a>CSR</a></li>
+          <li class="text-base"><a>Blog</a></li>
+          <li class="text-base"><a>Contact Us</a></li>
+          <li class="text-base"><a>Terms & Conditions</a></li>
+          <li class="text-base"><a>Sustainability</a></li>
+        </ul>
+      </div>
+
+           <div class="dropdown dropdown-hover">
+        <label tabindex="0" class="text-sm xl:text-lg">Career</label>
+        
+      </div>
       </div>
       <div
         class="w-[auto] sm:w-[115px] pl-5 p-0.5 font-roboto text-xs sm:text-base font-medium bg-lightblue hover:bg-blue text-white flex justify-between items-center rounded-full cursor-pointer">
