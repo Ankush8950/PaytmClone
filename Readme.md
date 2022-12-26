@@ -6,7 +6,7 @@
 
 
 [![](https://img.shields.io/badge/linkedin-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ankush-kumar-275129176/)
-[![](https://img.shields.io/badge/MY%20PORTFOLIO-0B94DE?style=for-the-badge)](https://devloperankush.tk/ 'Link')
+[![](https://img.shields.io/badge/MY%20PORTFOLIO-0B94DE?style=for-the-badge)](https://developerankush.tk/ 'Link')
 
 
 <!-- [![]()]() -->
