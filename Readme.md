@@ -15,6 +15,8 @@
 ## **Using Technology**
 [![html](https://img.shields.io/badge/html-red?style=for-the-badge&logo=HTML5&logoColor=white)]()
 [![tailwind css](https://img.shields.io/badge/tailwind%20css-blue?style=for-the-badge&logo=tailwind%20css&logoColor=white)]()
+[![tailwind css](https://img.shields.io/badge/javascript-black?style=for-the-badge&logo=javascript&logoColor=yellow)]()
+
 
 # **Time Taken for this project**
 > I spent  around 12 to 15 hours completing this project , and this is a completely responsive Design. 
